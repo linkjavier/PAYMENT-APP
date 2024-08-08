@@ -7,6 +7,7 @@ interface Transaction {
   amount: number;
   deliveryAddress: string;
   status: string;
+  createdAt: string;
 }
 
 interface TransactionState {
